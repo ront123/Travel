@@ -167,151 +167,16 @@
         
         @media print {
           @page {
-            size: A4 portrait;
-            margin: 6mm 10mm;
+            size: 1280px 1950px;
+            margin: 0;
           }
           body {
             -webkit-print-color-adjust: exact !important;
             print-color-adjust: exact !important;
-            font-size: 11px !important;
+            width: 1280px !important;
+            margin: 0 !important;
+            padding: 0 !important;
             background-color: #fcf9f4 !important;
-          }
-          /* Scale down elements to fit exactly 1 page */
-          header {
-            height: auto !important;
-            padding-top: 12px !important;
-            padding-bottom: 12px !important;
-          }
-          header h1 {
-            font-size: 24px !important;
-            line-height: 1.2 !important;
-            margin-bottom: 4px !important;
-          }
-          header p {
-            font-size: 15px !important;
-            line-height: 1.2 !important;
-            margin-bottom: 8px !important;
-          }
-          header .inline-block {
-            padding: 4px 12px !important;
-            margin-top: 4px !important;
-          }
-          header .inline-block p {
-            font-size: 12px !important;
-          }
-          main {
-            padding-top: 4px !important;
-            padding-bottom: 4px !important;
-            gap: 8px !important;
-          }
-          .space-y-8 > :not([hidden]) ~ :not([hidden]) {
-            margin-top: 8px !important;
-          }
-          main h2 {
-            font-size: 16px !important;
-          }
-          main p {
-            font-size: 11px !important;
-            line-height: 1.3 !important;
-          }
-          main .grid {
-            gap: 6px !important;
-          }
-          /* Service cards */
-          .bg-surface-container-lowest {
-            padding: 8px 12px !important;
-          }
-          .bg-surface-container-lowest h3 {
-            font-size: 13px !important;
-            margin-bottom: 4px !important;
-          }
-          .bg-surface-container-lowest ul {
-            gap: 4px !important;
-            margin-top: 4px !important;
-          }
-          .bg-surface-container-lowest li {
-            font-size: 10px !important;
-          }
-          .bg-surface-container-lowest li span.material-symbols-outlined {
-            font-size: 14px !important;
-          }
-          /* Image Gallery */
-          section.grid.h-\[250px\], section.grid.md\:h-\[300px\] {
-            height: 110px !important;
-          }
-          /* Target audience */
-          .bg-surface-container-low {
-            padding: 10px !important;
-          }
-          .bg-surface-container-low h2 {
-            font-size: 14px !important;
-          }
-          .bg-surface-container-low .bg-surface-container-lowest {
-            padding: 4px 8px !important;
-          }
-          .bg-surface-container-low h4 {
-            font-size: 11px !important;
-          }
-          .bg-surface-container-low p {
-            font-size: 10px !important;
-          }
-          .bg-surface-container-low span.material-symbols-outlined {
-            font-size: 14px !important;
-          }
-          /* Testimonial quote */
-          section.md\:col-span-5 {
-            padding: 4px !important;
-            margin-top: 0 !important;
-          }
-          section.md\:col-span-5 span.material-symbols-outlined {
-            font-size: 24px !important;
-            margin-bottom: 2px !important;
-          }
-          section.md\:col-span-5 p {
-            font-size: 12px !important;
-            line-height: 1.2 !important;
-          }
-          section.md\:col-span-5 .mt-6 {
-            margin-top: 6px !important;
-          }
-          /* Footer */
-          footer {
-            margin-top: 8px !important;
-            padding-top: 6px !important;
-            padding-bottom: 6px !important;
-          }
-          footer h2 {
-            font-size: 14px !important;
-            margin-bottom: 2px !important;
-          }
-          footer p {
-            font-size: 10px !important;
-          }
-          footer .max-w-md {
-            display: flex !important;
-            flex-direction: row !important;
-            justify-content: center !important;
-            gap: 6px !important;
-            padding: 4px !important;
-            max-w-none !important;
-            margin-top: 4px !important;
-          }
-          footer .max-w-md a {
-            flex: 1 !important;
-            padding: 4px 8px !important;
-            margin-top: 0 !important;
-            justify-content: space-between !important;
-            gap: 2px !important;
-          }
-          footer .max-w-md a span {
-            font-size: 10px !important;
-          }
-          footer .max-w-md a div {
-            width: 20px !important;
-            height: 20px !important;
-          }
-          footer .max-w-md a div span {
-            font-size: 12px !important;
           }
         }
       </style>
